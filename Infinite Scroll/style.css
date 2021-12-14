@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&family=Montserrat:wght@100&display=swap");
+html {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  font-family: Libre Franklin, sans-serif;
+  background-color: whitesmoke;
+}
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image-container {
+  margin: 10px 30%;
+}
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+}
